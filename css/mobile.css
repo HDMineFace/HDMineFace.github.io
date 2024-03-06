@@ -1,0 +1,79 @@
+html, body, #wrapper
+{
+	min-width: 0px;
+}
+
+#links
+{
+	position: absolute;
+	top: 40px;
+	left: 0px;
+	max-width: 100%;
+	margin-left: 0px;
+	overflow: hidden;
+}
+
+#link_wrapper
+{
+	width: 100%;
+	padding-left: 0px;
+	padding-right: 0px;
+	text-align: center;
+}
+
+#logo_link
+{
+	width: 0px;
+}
+
+#logo_link_text
+{
+	width: auto;
+	display: inline;
+}
+
+#content, .row, #links
+{
+	width: 100%;
+}
+
+#header
+{
+	height: 300px;
+}
+
+#posts
+{
+	display: inline-block;
+	width: 100%;
+}
+
+#side
+{
+	display: inline-block;
+	width: 0%;
+	opacity: 0;
+}
+
+#header #webgl_slider
+{
+	width: 0px;
+	height: 0px;
+	opacity: 0;
+}
+
+#header:hover #webgl_slider
+{
+	opacity: 0;
+}
+
+#info_box
+{
+	width: 0px;
+	height: 0px;
+	opacity: 0;
+	position: absolute;
+	top: 0px;
+	left: 0px;
+	padding: 0px;
+}
